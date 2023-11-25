@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".delete">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loja do Vinicius EditorMode"
+        android:paddingBottom="16dp"
+        android:paddingTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:rowCount="3"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        tools:layout_editor_absoluteX="16dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="12dp"
+                android:src="@drawable/tenis" />
+
+            <TextView
+                android:id="@+id/descricao1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image1"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="4dp"
+                android:paddingBottom="16dp"
+                android:text="Tenis dunk low blue" />
+
+            <TextView
+                android:id="@+id/preco1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/descricao1"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="4dp"
+                android:paddingBottom="16dp"
+                android:text="R$: 600,00" />
+            <ImageView
+                android:id="@+id/deleteIcon1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_delete" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1">
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="12dp"
+                android:src="@drawable/tenis" />
+
+            <TextView
+                android:id="@+id/descricao2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image2"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="4dp"
+                android:paddingBottom="16dp"
+                android:text="Tenis dunk low blue" />
+
+            <TextView
+                android:id="@+id/preco2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/descricao2"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="4dp"
+                android:paddingBottom="16dp"
+                android:text="R$: 600,00" />
+
+            <ImageView
+                android:id="@+id/deleteIcon2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_delete" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1">
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="12dp"
+                android:src="@drawable/tenis" />
+
+            <TextView
+                android:id="@+id/descricao3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image3"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="4dp"
+                android:paddingBottom="16dp"
+                android:text="Tenis dunk low blue" />
+
+            <TextView
+                android:id="@+id/preco3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/descricao3"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="4dp"
+                android:paddingBottom="16dp"
+                android:text="R$: 600,00" />
+
+
+            <ImageView
+                android:id="@+id/deleteIcon3"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_delete" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1">
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="12dp"
+                android:src="@drawable/tenis" />
+
+            <TextView
+                android:id="@+id/descricao4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image4"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="4dp"
+                android:paddingBottom="16dp"
+                android:text="Tenis dunk low blue" />
+
+            <TextView
+                android:id="@+id/preco4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/descricao4"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="4dp"
+                android:paddingBottom="16dp"
+                android:text="R$: 600,00" />
+
+
+            <ImageView
+                android:id="@+id/deleteIcon4"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_delete" />
+        </RelativeLayout>
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
